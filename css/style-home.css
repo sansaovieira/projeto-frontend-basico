@@ -1,0 +1,100 @@
+header {
+	background-color: #bbbbbb;
+	padding: 20px 0;
+}
+.caixa {
+	position: relative;
+	/*Posição relativa de modo a colocar o conteúdo do menu dentro da caixa*/
+	width: 940px;
+	margin: 0 auto;
+	/* Para o top e o rodapé a margem é 0 e para o lado direito e esquerdo, a margem é automártica*/
+}
+
+
+nav {
+	position: absolute;
+	/*Posição absolute é usado para quebrar o ponto inicial e gerar um posicionamento absoluto em relação a uma outra coisa*/
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #c78c19;
+	text-decoration: underline;
+
+}
+
+#banner {
+	width: 100%;
+}
+
+.principal {
+	background-color: #CCCCCC;
+	padding: 30px;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center;
+}
+
+#missao {
+	text-align: center;
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.beneficios {
+	background-color: #fff;
+}
+
+.beneficios h2 {
+	text-align: center;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	margin-right: 15%;
+}
+
+.img-beneficios {
+	width: 50%;
+}
+
+.itens {
+	font-style: italic;
+}
+
+
+footer {
+	text-align: center;
+	background: url("../img/bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #ffffff;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
